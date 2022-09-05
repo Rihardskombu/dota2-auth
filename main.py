@@ -25,6 +25,6 @@ def print_profile_card(account_id, profile_card):
     if account_id == 70388657:
         print(str(profile_card))
 
-
+#be careful with "EResult.RateLimitExceded"
 client.cli_login("login_here :)", "passwrod_here :)")
 client.run_forever()
